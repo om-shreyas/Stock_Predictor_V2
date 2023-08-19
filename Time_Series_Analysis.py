@@ -190,7 +190,7 @@ def create_model_conv(X,y,window = 5,path = ''):
     cp1 = ModelCheckpoint(path, save_best_only=True)
     model.compile(loss=MAPE(), optimizer=Adam(learning_rate=0.001), metrics=[MeanAbsolutePercentageError()])
 
-    model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=50,callbacks=[cp1])
+    model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=15,callbacks=[cp1])
 
     model = load_model(path+'/')
 

@@ -27,7 +27,7 @@ def new_data(stock):
 def existing_data(stock):
     predict_model(stock)
     new = latest_prediction(stock)
-    print(new)
+    return(new)
 
 
 # In[14]:
