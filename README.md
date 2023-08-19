@@ -35,7 +35,6 @@ The Stock_Predictor_V2 project is divided into several key components:
 
 The project's directory structure is organized as follows:
 
-- `data/`: Contains data files and datasets used for analysis.
 - `models/`: Stores trained regression and reinforcement learning models.
 - `Predictions_code.py`: Python script containing the core functionality of the project.
 - `README.md`: This readme file.
